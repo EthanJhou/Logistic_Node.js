@@ -300,7 +300,7 @@
         <pattern>^\d{7,10}$</pattern>
       </param>
       <param type="String" require="1" name="AllPayLogisticsID">
-        <pattern>^.{1,20}$</pattern>
+        <pattern>^\d{1,20}([,]\d{1,20}){0,}$</pattern>
       </param>
       <param type="String" require="0" name="PlatformID">
         <pattern>^\d{0,10}$</pattern>
@@ -683,10 +683,10 @@
         <pattern>^\d{7,10}$</pattern>
       </param>
       <param  type="String"  require="1" name="AllPayLogisticsID">
-        <pattern>^.{1,20}$</pattern>
+        <pattern>^\d{1,20}([,]\d{1,20}){0,}$</pattern>
       </param>
       <param  type="String"  require="1" name="CVSPaymentNo">
-        <pattern>^.{1,15}$</pattern>
+        <pattern>^\d{1,15}([,]\d{1,15}){0,}$</pattern>
       </param>
       <param  type="String"  require="1" name="CVSValidationNo">
         <pattern>^.{1,10}$</pattern>
@@ -712,10 +712,10 @@
         <pattern>^\d{7,10}$</pattern>
       </param>
       <param  type="String"  require="1" name="AllPayLogisticsID">
-        <pattern>^.{1,20}$</pattern>
+        <pattern>^\d{1,20}([,]\d{1,20}){0,}$</pattern>
       </param>
       <param  type="String"  require="1" name="CVSPaymentNo">
-        <pattern>^.{1,15}$</pattern>
+        <pattern>^\d{1,15}([,]\d{1,15}){0,}$</pattern>
       </param>
       <param  type="String"  require="1" name="PlatformID">
         <pattern>^\d{0,10}$</pattern>
@@ -738,10 +738,10 @@
         <pattern>^\d{7,10}$</pattern>
       </param>
       <param  type="String"  require="1" name="AllPayLogisticsID">
-        <pattern>^.{1,20}$</pattern>
+        <pattern>^\d{1,20}([,]\d{1,20}){0,}$</pattern>
       </param>
       <param  type="String"  require="1" name="CVSPaymentNo">
-        <pattern>^.{1,15}$</pattern>
+        <pattern>^\d{1,15}([,]\d{1,15}){0,}$</pattern>
       </param>
       <param  type="String"  require="1" name="PlatformID">
         <pattern>^\d{0,10}$</pattern>
@@ -764,10 +764,10 @@
         <pattern>^\d{7,10}$</pattern>
       </param>
       <param  type="String"  require="1" name="AllPayLogisticsID">
-        <pattern>^.{1,20}$</pattern>
+        <pattern>^\d{1,20}([,]\d{1,20}){0,}$</pattern>
       </param>
       <param  type="String"  require="1" name="CVSPaymentNo">
-        <pattern>^.{1,15}$</pattern>
+        <pattern>^\d{1,15}([,]\d{1,15}){0,}$</pattern>
       </param>
       <param  type="String"  require="1" name="PlatformID">
         <pattern>^\d{0,10}$</pattern>
